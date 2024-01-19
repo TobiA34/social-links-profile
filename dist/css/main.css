@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+a:hover {
+  background-color: #c5f82a;
+  color: #141414;
+  cursor: pointer; }
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  background: #141414; }
+
+.wrapper {
+  display: flex;
+  margin: 116px 24px 117px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.card {
+  width: 327px;
+  height: 579px;
+  background: #1F1F1F;
+  border-radius: 12px;
+  color: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+
+.mt-1 {
+  margin-top: 4px; }
+
+.mt-24 {
+  margin-top: 24px; }
+
+.logo {
+  width: 88px;
+  height: 88px;
+  border-radius: 999px;
+  margin: auto; }
+
+.green {
+  color: #c5f82a; }
+
+.social-link {
+  background: #333333;
+  display: flex;
+  margin: 12px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  align-self: stretch; }
+
+@media screen and (min-width: 400px) {
+  .wrapper {
+    padding: 174px 0px 175px 0px; }
+  .card {
+    width: 384px;
+    height: 579px; } }
